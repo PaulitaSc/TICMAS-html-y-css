@@ -1,0 +1,34 @@
+/** para aplicarle a todos los elementos la misma característica*/
+
+* {
+    color: blue}
+/** si está definida cada una, no aplica la general*/
+p,span {
+    /** sentido agujas del reloj,
+    arriba derecha abajo izquierda, 
+    valores de px de padding */
+    padding: 15px 25px 30px 45px;
+    margin: 25px 35px 45px;
+    color: red;
+    width: 300px;
+    font-weight: bold;
+    border: 5px solid blue
+}
+/** segundo método, el mejor, 
+los estilos se aplican a cada html en este método
+*/
+h1 {
+    /** modelo de cajas, box model: border, padding, margin */
+    border: 11px dotted yellow;
+    padding-left: 12px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-right: 15px;
+    /** para darle el mismo margen a toda la página margin: 50px; */
+    margin-top: 130px;
+    margin-left: 210px;
+    margin-bottom: 50px;
+    margin-right: 560px;
+    color: blueviolet;
+    font-weight: bold;
+}

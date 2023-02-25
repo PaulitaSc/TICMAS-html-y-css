@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  #mi_parrafo {
+    color: orange;
+    font-size: 50px;
+    border: 35px dotted rgb(59, 118, 170)
+  }
+
+  .miclase {
+    font-weight: 300;
+    color:deeppink;
+  }
+
+  section h1 {
+    font-size: 300px;
+    font-family: 'Roboto Slab', serif;
+    color: aquamarine;
+  }
